@@ -1,13 +1,13 @@
 %%
-%潮流方程
-% 支路潮流约束
+%娼祦鏂圭▼
+% 鏀矾娼祦绾︽潫
 for t = 1: n_T
     C = [C,
         PF_D(:, t) == Bf*Va(:, t) + Pfinj,
         ];
 end
 %%
-% 节点功率平衡约束(矩阵形式)
+% 鑺傜偣鍔熺巼骞宠　绾︽潫(鐭╅樀褰㈠紡)
 GenIncMatrix = zeros(n_bus,n_gen);
 for i=1:n_gen
     GenIncMatrix(gen(i,GEN_BUS),i)=1;
@@ -22,9 +22,11 @@ for t = 1: n_T
         ];
 end
 
+C = [C, -1 <= Va <= 1]; %鐩歌闄愬埗
+
 %%
-% % 节点功率平衡约束
-% % 这个有问题，gen_P只有n_gen
+% % 鑺傜偣鍔熺巼骞宠　绾︽潫
+% % 杩欎釜鏈夐棶棰橈紝gen_P鍙湁n_gen
 % for t = 1: n_T
 %     for i = 1: n_bus
 %         [temp1, temp2] = find(gen(:,1)==i);
