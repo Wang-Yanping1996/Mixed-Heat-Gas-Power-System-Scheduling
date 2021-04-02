@@ -10,6 +10,8 @@ run HeatGasPowerCombination.m directly
 Besides, note that the model is based on the Matlab, Yalmip, and the solver is Gurobi. It can be changed to other solvers, such as Cplex, by modifying the parameter 'gurobi' in sentence 'ops = settings('solver','gurobi'. 
 此外，请注意，该模型基于Matlab，Yalmip，求解器为Gurobi。 通过修改句子'ops = settings('solver'，'gurobi'中的参数'gurobi'，可以将其更改为其他求解器，例如Cplex。  If you have any idea on improving this model, please contact me. 如果您有任何改进此模型的想法，请联系我.
 
+本项目只用于交流，希望不要出现商业行为（之前在闲鱼上竟然发现有人转卖），谢谢！
+This project is used for communication, not for commercial purposes(Before, I found someone reselling this project on the Xianyu), thanks!
 
 基于matlab及yalmip的混合系统调度模型
 王砚平
