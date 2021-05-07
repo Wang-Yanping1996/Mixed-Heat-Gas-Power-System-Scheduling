@@ -1,8 +1,8 @@
 # Mixed-Heat-Gas-Power-System-Scheduling  
 热网，气网，电网简单混合系统的调度
 
-数据来源和模型说明见“模型与数据”文件夹下的word和excel（林玲整理）  
-the instructions of data and model are in the word and excel under "model and data" file (collected by Lin Ling)
+数据来源和模型说明见“模型与数据”文件夹下的word和excel（林玲整理），参考文献在文件“模型与数据.docx”中以批注标示。
+the instructions of data and model are in the word and excel under "model and data" file (collected by Lin Ling). References are marked with comments in the file "模型与数据.docx".
 
 直接运行"HeatGasPowerCombination.m"  
 run "HeatGasPowerCombination.m" directly
