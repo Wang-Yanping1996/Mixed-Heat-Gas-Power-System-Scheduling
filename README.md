@@ -13,6 +13,9 @@ Besides, note that the model is based on the Matlab, Yalmip, and the solver is G
 本项目只用于交流，希望不要出现商业行为（之前在闲鱼上竟然发现有人转卖），谢谢！  
 This project is used for communication, not for commercial purposes(Before, I found someone reselling this project on the Xianyu), thanks!
 
+注：matlab上传github，中文注释乱码的问题，暂时没找到解决办法，如果您有，可以告诉我。目前我的解决方法是，上传了一个.zip的压缩包，下载后解压应该不会乱码。
+Note that: when I upload the .m files to github, its Chinese notes will be error codes, I didn't find any way to solve it, if you know, please tell me. Now my solution is that a .zip file is uploaded, upzip it seems to avoid the error codes problem.
+
 基于matlab及yalmip的混合系统调度模型  
 王砚平  
 2020.04  
